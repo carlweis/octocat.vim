@@ -11,110 +11,115 @@ endif
 set t_Co=256
 let g:colors_name = "octocat"
 
-hi Cursor       guifg=#192224 ctermfg=235  guibg=#F9F9F9 gui=NONE ctermbg=15  cterm=NONE
-hi CursorLine   guifg=NONE    ctermfg=NONE guibg=#fafafa gui=NONE ctermbg=253 cterm=NONE
-hi CursorColumn guifg=NONE    ctermfg=NONE guibg=#222E30 gui=NONE ctermbg=236 cterm=NONE
-hi Normal       guifg=#210018 ctermfg=233  guibg=#ffffff ctermbg=15   gui=NONE cterm=NONE
-hi DiffAdd      guifg=#003300 ctermfg=22   guibg=#DDFFDD ctermbg=194  gui=NONE cterm=NONE
-hi DiffChange   guibg=#ECECEC ctermbg=255  gui=NONE cterm=NONE
-hi DiffText     guifg=#000033 ctermfg=17   guibg=#DDDDFF ctermbg=189  gui=NONE cterm=NONE
-hi DiffDelete   guifg=#DDCCCC ctermfg=252  guibg=#FFDDDD ctermbg=224  gui=NONE cterm=NONE
-hi gitcommitSelectedFile ctermfg=28
-hi gitcommitUntrackedFile ctermfg=1
-hi gitcommitDiscardedFile ctermfg=1
-hi Folded       guifg=#808080 ctermfg=244  guibg=#ECECEC ctermbg=255  gui=NONE cterm=NONE
-hi LineNr       guifg=#BBBBBB ctermfg=248  guibg=#ECECEC ctermbg=255  gui=NONE cterm=NONE
-hi NonText      guifg=#808080 ctermfg=244  guibg=#ECECEC ctermbg=255  gui=NONE cterm=NONE
-hi VertSplit    guifg=#ffffff ctermfg=241  guibg=#5E6C70 ctermbg=241  gui=BOLD cterm=BOLD
-hi StatusLineNC guifg=#BBBBBB ctermfg=250  guibg=#ECECEC ctermbg=255  gui=ITALIC cterm=NONE
-hi StatusLine   guifg=#404040 ctermfg=238  guibg=#BBBBBB ctermbg=250  gui=BOLD cterm=BOLD
-hi ModeMsg      guifg=#990000 ctermfg=88   gui=NONE cterm=NONE
-hi MoreMsg      guifg=#990000 ctermfg=88   gui=NONE cterm=NONE
-hi Title        guifg=#EF5939 ctermfg=203  gui=NONE cterm=NONE
-hi WarningMsg   guifg=#EF5939 ctermfg=203  gui=NONE cterm=NONE
-hi SpecialKey   guifg=#FFFFFF ctermfg=231  guibg=#FF1100 ctermbg=NONE  gui=ITALIC cterm=NONE
-hi MatchParen   guifg=#000000 ctermfg=16   guibg=#CDCDFD ctermbg=189  gui=NONE cterm=NONE
-hi Underlined   guifg=#000000 ctermfg=16   gui=UNDERLINE cterm=UNDERLINE
-hi Directory    guifg=#536991 ctermfg=60   gui=BOLD cterm=BOLD
-hi Visual       guifg=#192224 ctermfg=235  guibg=#F9F9FF ctermbg=189  gui=NONE cterm=NONE
-hi VisualNOS    guifg=#192224 ctermfg=235  guibg=#F9F9FF ctermbg=189  gui=NONE cterm=NONE
-hi IncSearch    guifg=#192224 ctermfg=235  guibg=#BD9800 ctermbg=75   gui=NONE cterm=NONE
-hi Search       guifg=#192224 ctermfg=235  guibg=#BD9800 ctermbg=75   gui=NONE cterm=NONE
-hi Ignore       guifg=#808080 ctermfg=244  gui=NONE cterm=NONE
-hi Identifier   guifg=#a71d5d ctermfg=125  gui=NONE cterm=NONE
-hi PreProc      guifg=#a71d5d ctermfg=125  gui=BOLD cterm=BOLD
-hi Comment      guifg=#acb1b3 ctermfg=249  gui=ITALIC cterm=NONE
-hi Constant     guifg=#0086b3 ctermfg=31   gui=NONE cterm=BOLD
-hi String       guifg=#183691 ctermfg=18   gui=NONE cterm=NONE
-hi Function     guifg=#795da3 ctermfg=97   gui=BOLD cterm=BOLD
-hi Statement    guifg=#a71d5d ctermfg=125  gui=BOLD cterm=BOLD
-hi Type         guifg=#795da3 ctermfg=97   gui=BOLD cterm=BOLD
-hi Number       guifg=#0086b3 ctermfg=31   gui=NONE cterm=NONE
-hi Todo         guifg=#F9F9FF ctermfg=233  guibg=#BD9800 gui=NONE cterm=NONE
-hi Special      guifg=#183691 ctermfg=18   gui=NONE cterm=NONE
-hi rubySymbol   guifg=#0086b3 ctermfg=31   gui=NONE cterm=NONE
-hi Error        guifg=#A1A6A8 ctermfg=248  guibg=#912C00 ctermbg=88   gui=NONE cterm=NONE
-hi Label        guifg=#BD9800 ctermfg=1    gui=BOLD cterm=BOLD
-hi StorageClass guifg=#536991 ctermfg=60   gui=BOLD cterm=BOLD
-hi Structure    guifg=#536991 ctermfg=60   gui=BOLD cterm=BOLD
-hi Typedef      guifg=#536991 ctermfg=60   gui=BOLD cterm=BOLD
-hi WildMenu     guifg=#7FBDFF ctermfg=111  guibg=#425C78 ctermbg=60   gui=NONE cterm=NONE
-hi PMenu        guifg=#192224 ctermfg=232  guibg=#5E6C70 gui=NONE ctermbg=153 cterm=NONE
-hi PMenuSbar    guifg=NONE    ctermfg=NONE guibg=#848688 gui=NONE ctermbg=102 cterm=NONE
-hi PMenuSel     guifg=#192224 ctermfg=015  guibg=#BD9800 gui=NONE ctermbg=75  cterm=NONE
-hi PMenuThumb   guifg=NONE    ctermfg=NONE guibg=#a4a6a8 gui=NONE ctermbg=248 cterm=NONE
-hi TabLine      guifg=#192224 ctermfg=235  guibg=#5E6C70 gui=BOLD ctermbg=66 cterm=BOLD
-hi TabLineFill  guifg=#192224 ctermfg=235  guibg=#5E6C70 gui=BOLD ctermbg=66 cterm=BOLD
-hi TabLineSel   guifg=#192224 ctermfg=15   guibg=#BD9800 gui=BOLD ctermbg=1  cterm=BOLD
-hi cucumberTags guifg=#333333 ctermfg=236  guibg=#FFFF66 ctermbg=227  gui=BOLD cterm=BOLD
-hi htmlTagName  guifg=#a71d5d ctermfg=125  guibg=#5E6C70 gui=NONE cterm=NONE
+hi Cursor                        ctermfg=235   ctermbg=15    cterm=none
+hi CursorLine                    ctermfg=none  ctermbg=253   cterm=none
+hi CursorColumn                  ctermfg=none  ctermbg=236   cterm=none
+hi Normal                        ctermfg=233   ctermbg=15    cterm=none
+hi DiffAdd                       ctermfg=22    ctermbg=194   cterm=none
+hi DiffChange                    ctermfg=none  ctermbg=255   cterm=none
+hi DiffText                      ctermfg=17    ctermbg=189   cterm=none
+hi DiffDelete                    ctermfg=252   ctermbg=224   cterm=none
+hi gitcommitSelectedFile         ctermfg=28    ctermbg=none  cterm=none
+hi diffFile                      ctermfg=60    ctermbg=none  cterm=bold
+hi diffLine                      ctermfg=245   ctermbg=none  cterm=bold
+hi diffAdded                     ctermfg=28    ctermbg=none  cterm=none
+hi diffRemoved                   ctermfg=1     ctermbg=none  cterm=none
+hi gitcommitUntrackedFile        ctermfg=1     ctermbg=none  cterm=none
+hi gitcommitDiscardedFile        ctermfg=1     ctermbg=none  cterm=none
+hi Folded                        ctermfg=244   ctermbg=255   cterm=none
+hi LineNr                        ctermfg=248   ctermbg=255   cterm=none
+hi NonText                       ctermfg=244   ctermbg=255   cterm=none
+hi VertSplit                     ctermfg=241   ctermbg=241   cterm=bold
+hi StatusLineNC                  ctermfg=250   ctermbg=255   cterm=none
+hi StatusLine                    ctermfg=238   ctermbg=250   cterm=bold
+hi ModeMsg                       ctermfg=88    ctermbg=none  cterm=none
+hi MoreMsg                       ctermfg=88    ctermbg=none  cterm=none
+hi Title                         ctermfg=203   ctermbg=none  cterm=none
+hi WarningMsg                    ctermfg=203   ctermbg=none  cterm=none
+hi SpecialKey                    ctermfg=231   ctermbg=none  cterm=none
+hi MatchParen                    ctermfg=16    ctermbg=189   cterm=none
+hi Underlined                    ctermfg=16    ctermbg=none  cterm=underline
+hi Directory                     ctermfg=60    ctermbg=none  cterm=bold
+hi Visual                        ctermfg=235   ctermbg=189   cterm=none
+hi VisualNOS                     ctermfg=235   ctermbg=189   cterm=none
+hi IncSearch                     ctermfg=235   ctermbg=75    cterm=none
+hi Search                        ctermfg=235   ctermbg=75    cterm=none
+hi Ignore                        ctermfg=244   ctermbg=none  cterm=none
+hi Identifier                    ctermfg=125   ctermbg=none  cterm=none
+hi PreProc                       ctermfg=125   ctermbg=none  cterm=bold
+hi Comment                       ctermfg=249   ctermbg=none  cterm=none
+hi Constant                      ctermfg=31    ctermbg=none  cterm=bold
+hi String                        ctermfg=18    ctermbg=none  cterm=none
+hi Function                      ctermfg=97    ctermbg=none  cterm=bold
+hi Statement                     ctermfg=125   ctermbg=none  cterm=bold
+hi Type                          ctermfg=97    ctermbg=none  cterm=bold
+hi Number                        ctermfg=31    ctermbg=none  cterm=none
+hi Todo                          ctermfg=233   ctermbg=none  cterm=none
+hi Special                       ctermfg=18    ctermbg=none  cterm=none
+hi rubySymbol                    ctermfg=31    ctermbg=none  cterm=none
+hi Error                         ctermfg=248   ctermbg=88    cterm=none
+hi Label                         ctermfg=1     ctermbg=none  cterm=bold
+hi StorageClass                  ctermfg=60    ctermbg=none  cterm=bold
+hi Structure                     ctermfg=60    ctermbg=none  cterm=bold
+hi Typedef                       ctermfg=60    ctermbg=none  cterm=bold
+hi WildMenu                      ctermfg=111   ctermbg=60    cterm=none
+hi PMenu                         ctermfg=232   ctermbg=153   cterm=none
+hi PMenuSbar                     ctermfg=none  ctermbg=102   cterm=none
+hi PMenuSel                      ctermfg=015   ctermbg=75    cterm=none
+hi PMenuThumb                    ctermfg=none  ctermbg=248   cterm=none
+hi TabLine                       ctermfg=235   ctermbg=66    cterm=bold
+hi TabLineFill                   ctermfg=235   ctermbg=66    cterm=bold
+hi TabLineSel                    ctermfg=15    ctermbg=1     cterm=bold
+hi cucumberTags                  ctermfg=236   ctermbg=227   cterm=bold
+hi htmlTagName                   ctermfg=125                 cterm=none
 hi link rubyStringDelimiter String
 hi link NERDTreeClosable Directory
 hi link NERDTreeOpenable Directory
+hi jsThis                        ctermfg=125   ctermbg=none  cterm=none
+hi jsStorageClass                ctermfg=125   ctermbg=none  cterm=none
+hi jsFunction                    ctermfg=97    ctermbg=none  cterm=none
 
-hi SignColumn guifg=#192224 guibg=#536991 guisp=#536991 gui=NONE ctermfg=235 ctermbg=60 cterm=NONE
-hi PreCondit guifg=#BD9800 guibg=NONE guisp=NONE gui=NONE ctermfg=1 ctermbg=NONE cterm=NONE
-hi Include guifg=#a71d5d guibg=NONE guisp=NONE gui=NONE ctermfg=125 ctermbg=NONE cterm=bold
-hi NonText guifg=#5E6C70 guibg=NONE guisp=NONE gui=italic ctermfg=66 ctermbg=NONE cterm=NONE
-hi ErrorMsg guifg=#A1A6A8 guibg=#912C00 guisp=#912C00 gui=NONE ctermfg=248 ctermbg=88 cterm=NONE
-hi ErrorMsg guifg=#A1A6A8 guibg=#912C00 guisp=#912C00 gui=NONE ctermfg=88 ctermbg=NONE cterm=NONE
-hi Debug guifg=#BD9800 guibg=NONE guisp=NONE gui=NONE ctermfg=1 ctermbg=NONE cterm=NONE
-hi SpecialChar guifg=#BD9800 guibg=NONE guisp=NONE gui=NONE ctermfg=1 ctermbg=NONE cterm=NONE
-hi Conditional guifg=#BD9800 guibg=NONE guisp=NONE gui=bold ctermfg=1 ctermbg=NONE cterm=bold
-hi Delimiter guifg=#BD9800 guibg=NONE guisp=NONE gui=NONE ctermfg=1 ctermbg=NONE cterm=NONE
-hi SpellRare guifg=#F9F9FF guibg=#192224 guisp=#192224 gui=underline ctermfg=235 ctermbg=NONE cterm=underline
-hi Character guifg=#A1A6A8 guibg=NONE guisp=NONE gui=NONE ctermfg=248 ctermbg=NONE cterm=NONE
-hi Float guifg=#0086b3 guibg=NONE guisp=NONE gui=NONE ctermfg=31 ctermbg=NONE cterm=NONE
-hi Boolean guifg=#A1A6A8 guibg=NONE guisp=NONE gui=NONE ctermfg=31 ctermbg=NONE cterm=NONE
-hi Operator guifg=#BD9800 guibg=NONE guisp=NONE gui=bold ctermfg=125 ctermbg=NONE cterm=bold
-hi Define guifg=#BD9800 guibg=NONE guisp=NONE gui=NONE ctermfg=125 ctermbg=NONE cterm=bold
-hi FoldColumn guifg=#192224 guibg=#A1A6A8 guisp=#A1A6A8 gui=italic ctermfg=235 ctermbg=248 cterm=NONE
-hi SpellCap guifg=#F9F9FF guibg=#192224 guisp=#192224 gui=underline ctermfg=235 ctermbg=189 cterm=underline
-hi Exception guifg=#BD9800 guibg=NONE guisp=NONE gui=bold ctermfg=1 ctermbg=NONE cterm=bold
-hi Keyword guifg=#a71d5d guibg=NONE guisp=NONE gui=bold ctermfg=125 ctermbg=NONE cterm=bold
-hi SpellLocal guifg=#F9F9FF guibg=#192224 guisp=#192224 gui=underline ctermfg=235 ctermbg=189 cterm=underline
-hi Tag guifg=#BD9800 guibg=NONE guisp=NONE gui=NONE ctermfg=1 ctermbg=NONE cterm=NONE
-hi Repeat guifg=#BD9800 guibg=NONE guisp=NONE gui=bold ctermfg=1 ctermbg=NONE cterm=bold
-hi SpellBad guifg=#F9F9FF guibg=#192224 guisp=#192224 gui=underline ctermfg=235 ctermbg=189 cterm=underline
-hi Macro guifg=#BD9800 guibg=NONE guisp=NONE gui=NONE ctermfg=1 ctermbg=NONE cterm=NONE
-hi cursorim guifg=#192224 guibg=#536991 guisp=#536991 gui=NONE ctermfg=235 ctermbg=60 cterm=NONE
-hi rubyGemfileMethod guifg=#192224 guibg=#5E6C70 guisp=#5E6C70 gui=bold ctermfg=235 ctermbg=NONE cterm=NONE
-"hi rubyRailsTestMethod guifg=#a71d5d guibg=#5E6C70 guisp=#5E6C70 gui=bold ctermfg=125 ctermbg=NONE cterm=bold
-hi rubyRailsARValidationMethod guifg=#222222 guibg=#5E6C70 guisp=#5E6C70 gui=bold ctermfg=233 ctermbg=NONE cterm=NONE
-hi rubyRailsARAssociationMethod guifg=#222222 guibg=#5E6C70 guisp=#5E6C70 gui=bold ctermfg=233 ctermbg=NONE cterm=NONE
-hi rubyInstanceVariable guifg=#222222 guibg=#5E6C70 guisp=#5E6C70 gui=bold ctermfg=18 ctermbg=NONE cterm=NONE
-hi htmlTag guifg=#a71d5d guibg=#5E6C70 guisp=#5E6C70 gui=bold ctermfg=248 ctermbg=NONE cterm=NONE
-hi hamlTag guifg=#a71d5d guibg=#5E6C70 guisp=#5E6C70 gui=bold ctermfg=248 ctermbg=NONE cterm=NONE
-hi hamlClass guifg=#a71d5d guibg=#5E6C70 guisp=#5E6C70 gui=bold ctermfg=125 ctermbg=NONE cterm=NONE
-hi htmlEndTag guifg=#a71d5d guibg=#5E6C70 guisp=#5E6C70 gui=bold ctermfg=244 ctermbg=NONE cterm=NONE
-hi rubyRailsMethod guifg=#210018 guibg=#ffffff guisp=#ffffff gui=NONE ctermfg=233 ctermbg=15 cterm=NONE
-hi rubyInterpolationDelimiter guifg=#183691 guibg=NONE guisp=NONE gui=NONE ctermfg=111 ctermbg=NONE cterm=NONE
-hi rubyConditional guifg=#a71d5d guibg=#5E6C70 guisp=#5E6C70 gui=bold ctermfg=125 ctermbg=NONE cterm=bold
-hi rubyConstant guifg=#a71d5d guibg=#5E6C70 guisp=#5E6C70 gui=bold ctermfg=31 ctermbg=NONE cterm=bold
-hi rubyCurlyBlockDelimiter guifg=#a71d5d guibg=#5E6C70 guisp=#5E6C70 gui=bold ctermfg=125 ctermbg=NONE cterm=NONE
-hi rubyAccess guifg=#a71d5d guibg=#5E6C70 guisp=#5E6C70 gui=bold ctermfg=125 ctermbg=NONE cterm=bold
-hi rubyKeywordAsMethod guifg=#a71d5d guibg=#5E6C70 guisp=#5E6C70 gui=bold ctermfg=125 ctermbg=NONE cterm=bold
-"hi rubyRailsTestControllerMethod guifg=#a71d5d guibg=#5E6C70 guisp=#5E6C70 gui=bold ctermfg=233 ctermbg=NONE cterm=bold
-hi CursorLineNR guifg=#a71d5d guibg=#5E6C70 guisp=#5E6C70 gui=bold ctermfg=125 ctermbg=255 cterm=bold
-hi rubyOperator guifg=#a71d5d guibg=#5E6C70 guisp=#5E6C70 gui=bold ctermfg=125 ctermbg=NONE cterm=bold
-hi ColorColumn guifg=#a71d5d guibg=#5E6C70 guisp=#5E6C70 gui=bold ctermfg=NONE ctermbg=189 cterm=bold
+hi SignColumn                    ctermfg=235   ctermbg=60    cterm=none
+hi PreCondit                     ctermfg=1     ctermbg=none  cterm=none
+hi Include                       ctermfg=125   ctermbg=none  cterm=bold
+hi NonText                       ctermfg=66    ctermbg=none  cterm=none
+hi ErrorMsg                      ctermfg=248   ctermbg=88    cterm=none
+hi ErrorMsg                      ctermfg=88    ctermbg=none  cterm=none
+hi Debug                         ctermfg=1     ctermbg=none  cterm=none
+hi SpecialChar                   ctermfg=1     ctermbg=none  cterm=none
+hi Conditional                   ctermfg=125   ctermbg=none  cterm=bold
+hi Delimiter                     ctermfg=1     ctermbg=none  cterm=none
+hi SpellRare                     ctermfg=235   ctermbg=none  cterm=underline
+hi Character                     ctermfg=248   ctermbg=none  cterm=none
+hi Float                         ctermfg=31    ctermbg=none  cterm=none
+hi Boolean                       ctermfg=31    ctermbg=none  cterm=none
+hi Operator                      ctermfg=125   ctermbg=none  cterm=bold
+hi Define                        ctermfg=125   ctermbg=none  cterm=bold
+hi FoldColumn                    ctermfg=235   ctermbg=248   cterm=none
+hi SpellCap                      ctermfg=235   ctermbg=189   cterm=underline
+hi Exception                     ctermfg=1     ctermbg=none  cterm=bold
+hi Keyword                       ctermfg=125   ctermbg=none  cterm=bold
+hi SpellLocal                    ctermfg=235   ctermbg=189   cterm=underline
+hi Tag                           ctermfg=1     ctermbg=none  cterm=none
+hi Repeat                        ctermfg=1     ctermbg=none  cterm=bold
+hi SpellBad                      ctermfg=235   ctermbg=189   cterm=underline
+hi Macro                         ctermfg=1     ctermbg=none  cterm=none
+hi cursorim                      ctermfg=235   ctermbg=60    cterm=none
+hi rubyGemfileMethod             ctermfg=235   ctermbg=none  cterm=none
+hi rubyRailsARValidationMethod   ctermfg=233   ctermbg=none  cterm=none
+hi rubyRailsARAssociationMethod  ctermfg=233   ctermbg=none  cterm=none
+hi rubyInstanceVariable          ctermfg=18    ctermbg=none  cterm=none
+hi htmlTag                       ctermfg=248   ctermbg=none  cterm=none
+hi hamlTag                       ctermfg=248   ctermbg=none  cterm=none
+hi hamlClass                     ctermfg=125   ctermbg=none  cterm=none
+hi htmlEndTag                    ctermfg=244   ctermbg=none  cterm=none
+hi rubyRailsMethod               ctermfg=233   ctermbg=15    cterm=none
+hi rubyInterpolationDelimiter    ctermfg=111   ctermbg=none  cterm=none
+hi rubyConditional               ctermfg=125   ctermbg=none  cterm=bold
+hi rubyConstant                  ctermfg=31    ctermbg=none  cterm=bold
+hi rubyCurlyBlockDelimiter       ctermfg=125   ctermbg=none  cterm=none
+hi rubyAccess                    ctermfg=125   ctermbg=none  cterm=bold
+hi rubyKeywordAsMethod           ctermfg=125   ctermbg=none  cterm=bold
+hi CursorLineNR                  ctermfg=125   ctermbg=255   cterm=bold
+hi rubyOperator                  ctermfg=125   ctermbg=none  cterm=bold
+hi ColorColumn                   ctermfg=none  ctermbg=189   cterm=bold
