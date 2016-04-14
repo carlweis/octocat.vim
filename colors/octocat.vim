@@ -71,13 +71,15 @@ hi TabLine                       ctermfg=235   ctermbg=66    cterm=bold
 hi TabLineFill                   ctermfg=235   ctermbg=66    cterm=bold
 hi TabLineSel                    ctermfg=15    ctermbg=1     cterm=bold
 hi cucumberTags                  ctermfg=236   ctermbg=227   cterm=bold
-hi htmlTagName                   ctermfg=125                 cterm=none
+hi htmlTagName                   ctermfg=070                 cterm=none
 hi link rubyStringDelimiter String
 hi link NERDTreeClosable Directory
 hi link NERDTreeOpenable Directory
-hi jsThis                        ctermfg=125   ctermbg=none  cterm=none
-hi jsStorageClass                ctermfg=125   ctermbg=none  cterm=none
-hi jsFunction                    ctermfg=97    ctermbg=none  cterm=none
+hi jsThis                        ctermfg=166   ctermbg=none  cterm=none
+hi jsStorageClass                ctermfg=125   ctermbg=none  cterm=bold
+hi jsFunction                    ctermfg=125   ctermbg=none  cterm=none
+hi jsFuncCall                    ctermfg=97    ctermbg=none  cterm=none
+hi jsGlobalObjects               ctermfg=31    ctermbg=none  cterm=none
 
 hi SignColumn                    ctermfg=235   ctermbg=60    cterm=none
 hi PreCondit                     ctermfg=1     ctermbg=none  cterm=none
@@ -109,10 +111,19 @@ hi rubyGemfileMethod             ctermfg=235   ctermbg=none  cterm=none
 hi rubyRailsARValidationMethod   ctermfg=233   ctermbg=none  cterm=none
 hi rubyRailsARAssociationMethod  ctermfg=233   ctermbg=none  cterm=none
 hi rubyInstanceVariable          ctermfg=18    ctermbg=none  cterm=none
-hi htmlTag                       ctermfg=248   ctermbg=none  cterm=none
+hi htmlTag                       ctermfg=000   ctermbg=none  cterm=none
 hi hamlTag                       ctermfg=248   ctermbg=none  cterm=none
 hi hamlClass                     ctermfg=125   ctermbg=none  cterm=none
-hi htmlEndTag                    ctermfg=244   ctermbg=none  cterm=none
+hi htmlEndTag                    ctermfg=000   ctermbg=none  cterm=none
+hi htmlArg                       ctermfg=097   ctermbg=none  cterm=none
+hi htmlSpecialChar               ctermfg=031   ctermbg=none  cterm=none
+hi htmlH1                        ctermfg=000   ctermbg=none  cterm=none
+hi htmlH2                        ctermfg=000   ctermbg=none  cterm=none
+hi htmlH3                        ctermfg=000   ctermbg=none  cterm=none
+hi htmlH4                        ctermfg=000   ctermbg=none  cterm=none
+hi htmlH5                        ctermfg=000   ctermbg=none  cterm=none
+hi htmlH6                        ctermfg=000   ctermbg=none  cterm=none
+hi erubyDelimiter                ctermfg=000   ctermbg=none  cterm=none
 hi rubyRailsMethod               ctermfg=233   ctermbg=15    cterm=none
 hi rubyInterpolationDelimiter    ctermfg=111   ctermbg=none  cterm=none
 hi rubyConditional               ctermfg=125   ctermbg=none  cterm=bold
