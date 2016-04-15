@@ -112,8 +112,11 @@ hi rubyRailsARValidationMethod   ctermfg=233   ctermbg=none  cterm=none
 hi rubyRailsARAssociationMethod  ctermfg=233   ctermbg=none  cterm=none
 hi rubyInstanceVariable          ctermfg=18    ctermbg=none  cterm=none
 hi htmlTag                       ctermfg=000   ctermbg=none  cterm=none
-hi hamlTag                       ctermfg=248   ctermbg=none  cterm=none
-hi hamlClass                     ctermfg=125   ctermbg=none  cterm=none
+hi hamlTag                       ctermfg=241   ctermbg=none  cterm=none
+hi hamlClass                     ctermfg=002   ctermbg=none  cterm=none
+hi hamlId                        ctermfg=002   ctermbg=none  cterm=none
+hi hamlClassChar                 ctermfg=241   ctermbg=none  cterm=none
+hi hamlIdChar                    ctermfg=241   ctermbg=none  cterm=none
 hi htmlEndTag                    ctermfg=000   ctermbg=none  cterm=none
 hi htmlArg                       ctermfg=097   ctermbg=none  cterm=none
 hi htmlSpecialChar               ctermfg=031   ctermbg=none  cterm=none
