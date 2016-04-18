@@ -72,6 +72,11 @@ hi TabLineFill                   ctermfg=235   ctermbg=66    cterm=bold
 hi TabLineSel                    ctermfg=15    ctermbg=1     cterm=bold
 hi cucumberTags                  ctermfg=236   ctermbg=227   cterm=bold
 hi htmlTagName                   ctermfg=070                 cterm=none
+hi xmlTagName                    ctermfg=070                 cterm=none
+hi xmlTag                        ctermfg=000                 cterm=none
+hi xmlEndTag                     ctermfg=070                 cterm=none
+hi xmlEndTagName                 ctermfg=070                 cterm=none
+hi xmlAttrib                     ctermfg=097                 cterm=none
 hi link rubyStringDelimiter String
 hi link NERDTreeClosable Directory
 hi link NERDTreeOpenable Directory
@@ -80,6 +85,11 @@ hi jsStorageClass                ctermfg=125   ctermbg=none  cterm=bold
 hi jsFunction                    ctermfg=125   ctermbg=none  cterm=none
 hi jsFuncCall                    ctermfg=97    ctermbg=none  cterm=none
 hi jsGlobalObjects               ctermfg=31    ctermbg=none  cterm=none
+hi jsObjectKey                   ctermfg=031   ctermbg=none  cterm=none
+hi jsFunctionKey                 ctermfg=097   ctermbg=none  cterm=none
+hi jsDotNotation                 ctermfg=125   ctermbg=none  cterm=none
+hi jsDomElemFuncs                ctermfg=097   ctermbg=none  cterm=none
+hi jsHtmlElemAttrs               ctermfg=000   ctermbg=none  cterm=none
 
 hi SignColumn                    ctermfg=235   ctermbg=60    cterm=none
 hi PreCondit                     ctermfg=1     ctermbg=none  cterm=none
@@ -117,6 +127,7 @@ hi hamlClass                     ctermfg=002   ctermbg=none  cterm=none
 hi hamlId                        ctermfg=002   ctermbg=none  cterm=none
 hi hamlClassChar                 ctermfg=241   ctermbg=none  cterm=none
 hi hamlIdChar                    ctermfg=241   ctermbg=none  cterm=none
+hi hamlRailsMethod               ctermfg=097   ctermbg=none  cterm=none
 hi htmlEndTag                    ctermfg=000   ctermbg=none  cterm=none
 hi htmlArg                       ctermfg=097   ctermbg=none  cterm=none
 hi htmlSpecialChar               ctermfg=031   ctermbg=none  cterm=none
