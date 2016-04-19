@@ -73,7 +73,7 @@ hi TabLineSel                    ctermfg=15    ctermbg=1     cterm=bold
 hi cucumberTags                  ctermfg=236   ctermbg=227   cterm=bold
 hi htmlTagName                   ctermfg=070                 cterm=none
 hi xmlTagName                    ctermfg=070                 cterm=none
-hi xmlTag                        ctermfg=000                 cterm=none
+hi xmlTag                        ctermfg=070                 cterm=none
 hi xmlEndTag                     ctermfg=070                 cterm=none
 hi xmlEndTagName                 ctermfg=070                 cterm=none
 hi xmlAttrib                     ctermfg=097                 cterm=none
