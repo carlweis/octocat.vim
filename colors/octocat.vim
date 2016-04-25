@@ -148,3 +148,30 @@ hi rubyKeywordAsMethod           ctermfg=125   ctermbg=none  cterm=bold
 hi CursorLineNR                  ctermfg=125   ctermbg=255   cterm=bold
 hi rubyOperator                  ctermfg=125   ctermbg=none  cterm=bold
 hi ColorColumn                   ctermfg=none  ctermbg=189   cterm=bold
+hi cssTagName                    ctermfg=070                 cterm=none
+hi scssSelectorName              ctermfg=097                 cterm=none
+hi scssSelectorChar              ctermfg=097                 cterm=none
+hi cssBraces                     ctermfg=000                 cterm=none
+hi scssAmpersand                 ctermfg=070                 cterm=none
+hi cssPseudoClass                ctermfg=097                 cterm=none
+hi cssPseudoClassId              ctermfg=097                 cterm=none
+hi scssExtend                    ctermfg=125                 cterm=none
+hi cssInclude                    ctermfg=125                 cterm=none
+hi cssIncludeKeyword             ctermfg=125                 cterm=none
+hi cssPositioningProp            ctermfg=031                 cterm=none
+hi cssBoxProp                    ctermfg=031                 cterm=none
+hi cssFontProp                   ctermfg=031                 cterm=none
+hi cssPageProp                   ctermfg=031                 cterm=none
+hi cssDimensionProp              ctermfg=031                 cterm=none
+hi cssTextProp                   ctermfg=031                 cterm=none
+hi cssMediaProp                  ctermfg=031                 cterm=none
+hi cssUIProp                     ctermfg=031                 cterm=none
+hi scssAttribute                 ctermfg=031                 cterm=none
+hi cssCommonAttr                 ctermfg=031                 cterm=none
+hi cssPositioningAttr            ctermfg=031                 cterm=none
+hi cssTextAttr                   ctermfg=031                 cterm=none
+hi cssBoxAttr                    ctermfg=031                 cterm=none
+hi cssFontAttr                   ctermfg=031                 cterm=none
+hi cssColor                      ctermfg=031                 cterm=none
+hi cssUnitDecorators             ctermfg=125                 cterm=none
+hi scssVariable                  ctermfg=000                 cterm=none
