@@ -139,7 +139,8 @@ hi htmlH5                        ctermfg=000   ctermbg=none  cterm=none
 hi htmlH6                        ctermfg=000   ctermbg=none  cterm=none
 hi erubyDelimiter                ctermfg=000   ctermbg=none  cterm=none
 hi rubyRailsMethod               ctermfg=233   ctermbg=15    cterm=none
-hi rubyInterpolationDelimiter    ctermfg=111   ctermbg=none  cterm=none
+hi rubyInterpolationDelimiter    ctermfg=039   ctermbg=none  cterm=none
+hi hamlInterpolationDelimiter    ctermfg=039   ctermbg=none  cterm=none
 hi rubyConditional               ctermfg=125   ctermbg=none  cterm=bold
 hi rubyConstant                  ctermfg=31    ctermbg=none  cterm=bold
 hi rubyCurlyBlockDelimiter       ctermfg=125   ctermbg=none  cterm=none
