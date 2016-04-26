@@ -12,7 +12,7 @@ set t_Co=256
 let g:colors_name = "octocat"
 
 hi Cursor                        ctermfg=235   ctermbg=15    cterm=none
-hi CursorLine                    ctermfg=none  ctermbg=253   cterm=none
+hi CursorLine                    ctermfg=none  ctermbg=254   cterm=none
 hi CursorColumn                  ctermfg=none  ctermbg=236   cterm=none
 hi Normal                        ctermfg=233   ctermbg=15    cterm=none
 hi DiffAdd                       ctermfg=22    ctermbg=194   cterm=none
