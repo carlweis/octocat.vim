@@ -160,6 +160,9 @@ hi scssExtend                    ctermfg=125                 cterm=none
 hi cssInclude                    ctermfg=125                 cterm=none
 hi cssIncludeKeyword             ctermfg=125                 cterm=none
 hi cssPositioningProp            ctermfg=031                 cterm=none
+hi cssBackgroundProp             ctermfg=031                 cterm=none
+hi cssBorderProp                 ctermfg=031                 cterm=none
+hi cssBorderAttr                 ctermfg=031                 cterm=none
 hi cssBoxProp                    ctermfg=031                 cterm=none
 hi cssFontProp                   ctermfg=031                 cterm=none
 hi cssPageProp                   ctermfg=031                 cterm=none
