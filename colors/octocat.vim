@@ -179,3 +179,9 @@ hi cssFontAttr                   ctermfg=031                 cterm=none
 hi cssColor                      ctermfg=031                 cterm=none
 hi cssUnitDecorators             ctermfg=125                 cterm=none
 hi scssVariable                  ctermfg=000                 cterm=none
+hi cssTableProp                  ctermfg=031                 cterm=none
+hi cssTableAttr                  ctermfg=031                 cterm=none
+hi cssBackgroundAttr             ctermfg=031                 cterm=none
+hi cssTransitionProp             ctermfg=031                 cterm=none
+hi cssFlexibleBoxProp            ctermfg=031                 cterm=none
+hi cssTransformProp              ctermfg=031                 cterm=none
