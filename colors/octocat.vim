@@ -185,3 +185,10 @@ hi cssBackgroundAttr             ctermfg=031                 cterm=none
 hi cssTransitionProp             ctermfg=031                 cterm=none
 hi cssFlexibleBoxProp            ctermfg=031                 cterm=none
 hi cssTransformProp              ctermfg=031                 cterm=none
+hi jsClass                       ctermfg=125                 cterm=bold
+hi jsConditional                 ctermfg=125                 cterm=none
+hi jsReturn                      ctermfg=125                 cterm=none
+hi jsOperator                    ctermfg=125                 cterm=bold
+hi jsSuper                       ctermfg=166                 cterm=none
+hi jsLabel                       ctermfg=125                 cterm=none
+hi jsStatement                   ctermfg=125                 cterm=none
