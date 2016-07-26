@@ -67,7 +67,7 @@ hi PMenu                         ctermfg=232   ctermbg=153   cterm=none
 hi PMenuSbar                     ctermfg=none  ctermbg=102   cterm=none
 hi PMenuSel                      ctermfg=015   ctermbg=75    cterm=none
 hi PMenuThumb                    ctermfg=none  ctermbg=248   cterm=none
-hi TabLine                       ctermfg=235   ctermbg=31    cterm=bold
+hi TabLine                       ctermfg=045   ctermbg=31    cterm=bold
 hi TabLineFill                   ctermfg=235   ctermbg=31    cterm=bold
 hi TabLineSel                    ctermfg=15    ctermbg=125   cterm=bold
 hi cucumberTags                  ctermfg=236   ctermbg=227   cterm=bold
