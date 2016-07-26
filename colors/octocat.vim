@@ -12,7 +12,7 @@ set t_Co=256
 let g:colors_name = "octocat"
 
 hi Cursor                        ctermfg=235   ctermbg=15    cterm=none
-hi CursorLine                    ctermfg=none  ctermbg=254   cterm=none
+hi CursorLine                    ctermfg=none  ctermbg=255   cterm=none
 hi CursorColumn                  ctermfg=none  ctermbg=236   cterm=none
 hi Normal                        ctermfg=233   ctermbg=15    cterm=none
 hi DiffAdd                       ctermfg=22    ctermbg=194   cterm=none
@@ -67,9 +67,9 @@ hi PMenu                         ctermfg=232   ctermbg=153   cterm=none
 hi PMenuSbar                     ctermfg=none  ctermbg=102   cterm=none
 hi PMenuSel                      ctermfg=015   ctermbg=75    cterm=none
 hi PMenuThumb                    ctermfg=none  ctermbg=248   cterm=none
-hi TabLine                       ctermfg=235   ctermbg=66    cterm=bold
-hi TabLineFill                   ctermfg=235   ctermbg=66    cterm=bold
-hi TabLineSel                    ctermfg=15    ctermbg=1     cterm=bold
+hi TabLine                       ctermfg=235   ctermbg=31    cterm=bold
+hi TabLineFill                   ctermfg=235   ctermbg=31    cterm=bold
+hi TabLineSel                    ctermfg=15    ctermbg=125   cterm=bold
 hi cucumberTags                  ctermfg=236   ctermbg=227   cterm=bold
 hi htmlTagName                   ctermfg=070                 cterm=none
 hi xmlTagName                    ctermfg=070                 cterm=none
@@ -148,7 +148,7 @@ hi rubyAccess                    ctermfg=125   ctermbg=none  cterm=bold
 hi rubyKeywordAsMethod           ctermfg=125   ctermbg=none  cterm=bold
 hi CursorLineNR                  ctermfg=125   ctermbg=255   cterm=bold
 hi rubyOperator                  ctermfg=125   ctermbg=none  cterm=bold
-hi ColorColumn                   ctermfg=none  ctermbg=189   cterm=bold
+hi ColorColumn                   ctermfg=none  ctermbg=255   cterm=bold
 hi cssTagName                    ctermfg=070                 cterm=none
 hi scssSelectorName              ctermfg=097                 cterm=none
 hi scssSelectorChar              ctermfg=097                 cterm=none
