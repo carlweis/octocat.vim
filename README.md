@@ -3,7 +3,7 @@
 I like GitHub's syntax highlighting a lot! Ruby, HTML, CSS, SCSS, ERB, HAML,
 JavaScript, and JSX looking pretty good at this point. :smile:
 
-Install Consolas font:
+Install Consolas font (courtesy of @avalonalex's [gist](https://gist.github.com/avalonalex/8125197)):
 ```
   $ brew install cabextract
   $ cd ~/Downloads
