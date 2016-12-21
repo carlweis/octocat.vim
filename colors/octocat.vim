@@ -94,6 +94,7 @@ hi jsDomElemFuncs                ctermfg=097   ctermbg=none  cterm=none
 hi jsHtmlElemAttrs               ctermfg=000   ctermbg=none  cterm=none
 hi mustacheHandlebars            ctermfg=31    ctermbg=none  cterm=none
 hi mustacheInside                ctermfg=166                 cterm=none
+hi mustacheConditionals          ctermfg=31                  cterm=none
 hi mustacheHelpers               ctermfg=31                  cterm=none
 hi link mustacheOperators jsFuncCall
 hi link jsonKeyword String
