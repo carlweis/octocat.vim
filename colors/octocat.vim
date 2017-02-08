@@ -180,6 +180,7 @@ hi cssBoxProp                    ctermfg=031   ctermbg=none  cterm=none
 hi cssFontProp                   ctermfg=031   ctermbg=none  cterm=none
 hi cssPageProp                   ctermfg=031   ctermbg=none  cterm=none
 hi cssDimensionProp              ctermfg=031   ctermbg=none  cterm=none
+hi cssListProp                   ctermfg=031   ctermbg=none  cterm=none
 hi cssTextProp                   ctermfg=031   ctermbg=none  cterm=none
 hi cssMediaProp                  ctermfg=031   ctermbg=none  cterm=none
 hi cssUIProp                     ctermfg=031   ctermbg=none  cterm=none
